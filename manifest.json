@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Snippets",
+  "version": "1.0.0",
+  "description": "A React-based Chrome DevTools extension",
+  "devtools_page": "src/devtools.html",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": []
+} 
